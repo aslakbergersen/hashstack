@@ -4,5 +4,5 @@ dependencies:
   run: [mpi4py, numpy, h5py, python-netcdf4, pyvtk]
 
 sources:
-- key: git:e4e24e40d592be7626be03c30bdf4ffe0a585d60
+- key: git:1fd18f7129adea38f052bf28e3ad81ae3877909a
   url: https://github.com/mikaem/fenicstools.git

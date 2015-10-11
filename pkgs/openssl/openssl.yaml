@@ -4,8 +4,8 @@ dependencies:
   build: [pkg-config, zlib, patchelf]
 
 sources:
-  - url: https://www.openssl.org/source/openssl-1.0.1g.tar.gz
-    key: tar.gz:kpfyddb3sdsqpkbur5hv5lw3axml7zjv
+  - url: http://www.openssl.org/source/openssl-1.0.2d.tar.gz
+    key: tar.gz:m4odmsdxqvriu4btotdffljm5pvel6us
 
 defaults:
   relocatable: false

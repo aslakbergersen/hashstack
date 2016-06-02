@@ -63,6 +63,7 @@ build_stages:
     - '-D CMAKE_INSTALL_RPATH:STRING="${ARTIFACT}/lib/vtk-5.10"'
     - '-D PYTHON_EXECUTABLE:FILEPATH="${PYTHON}"'
     - '-D VTK_USE_SYSTEM_TIFF:BOOL=ON'
+    - '-DCMAKE_OSX_DEPLOYMENT_TARGET=#{MacOS.version}'
 
 - when: vtk_use_tk
   name: configure
